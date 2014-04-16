@@ -1,11 +1,3 @@
-/*
-Usage:
-
-<script src="bootstrap.modalfy.js"></script>
-<a href="http://google.com/" class="modalfy btn btn-sm btn-default">Modalfy Google</a>
-
-*/
-
 function modalfyIframes(){
 	var offset=0; // 60 if you dont use buttons like me
 	$('.modal-dialog iframe').each(function(){
