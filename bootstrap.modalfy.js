@@ -8,7 +8,7 @@ $(window).on('resize load', modalfy);
 
 $( '.modalfy').click(function() {
 	bootbox.dialog({
-		message:'<iframe border="0" height="100%" width="100%" src="'+$(this).attr("href")+'" onload="modalfyIframes()">',
+		message:'<iframe border="0" height="100%" width="100%" src="'+$(this).attr("href")+'" onload="modalfy()">',
 		onEscape: function() {},
 		animate: true
 	});
