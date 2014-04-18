@@ -1,5 +1,5 @@
 function modalfyIframes(){
-	var offset=0; // 60 if you dont use buttons like me
+	var offset=60;
 	$('.modal-dialog iframe').each(function(){
 		$(this).css('height',($(this).parents().find('.modal-body').height() + offset) + 'px' );
 	});
