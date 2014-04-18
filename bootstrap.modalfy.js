@@ -1,12 +1,10 @@
-function modalfyIframes(){
-	var offset=60;
+function modalfy(){
 	$('.modal-dialog iframe').each(function(){
-		$(this).css('height',($(this).parents().find('.modal-body').height() + offset) + 'px' );
+		$(this).css('height',($(this).parents().find('.modal-body').height() + 60) + 'px' );
 	});
 }
 
-$(window).on('resize load',modalfyIframes);
-
+$(window).on('resize load', modalfy);
 
 $( '.modalfy').click(function() {
 	bootbox.dialog({
